@@ -159,6 +159,10 @@ html {
   }
 }
 
+h3 {
+  font-size: 70%;
+}
+
 h3 a {
   font-weight: bold;
 }
@@ -182,11 +186,16 @@ h3 a {
 /* PROGRAMME */
 section {
   height: 80vh;
+  width: 100%
+}
+
+.nes-btn {
+  margin: 0;
 }
 
 .nav {
   width: 70px;
-  justify-content: space-around;
+  justify-content: space-around !important;
   z-index: 1;
   max-width: 25%;
 }
@@ -197,7 +206,7 @@ section {
     width: 20vh;
     height: 55px;
     text-align: center;
-    font-size: 11px;
+    font-size: 10px;
 }
 
 .prog {
