@@ -71,13 +71,6 @@ html {
 }
 
 /*TITLE*/
-@import "compass/css3";
-
-/*body {
-  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/8872/space-bg.jpg);
-  background-size: cover;
-  overflow: hidden;
-} */
 @keyframes title-art {
   0% {
     transform: scale3d(0.1, 0.1, 0.1);
@@ -195,6 +188,7 @@ section {
   width: 70px;
   justify-content: space-around;
   z-index: 1;
+  max-width: 25%;
 }
 
 .nav-link {
@@ -217,6 +211,14 @@ section {
 .tab-content {
   justify-content: center;
   align-items: center;
+}
+
+textarea{
+ resize : none;
+}
+
+.courier{
+  font-family: courier;
 }
 
 .firstEnd {

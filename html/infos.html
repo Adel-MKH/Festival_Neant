@@ -5,17 +5,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>Néant Infos Pratique</title>
+  <title>Néant Infos pratiques</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
   <link href="https://unpkg.com/nes.css/css/nes.min.css" rel="stylesheet" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="NES.css" />
-  <meta property="og:url" content="https://nostalgic-css.github.io/NES.css/" />
-  <meta property="og:description" content="NES-style CSS Framework | ファミコン風CSSフレームワーク" />
-  <meta property="og:image" content="https://user-images.githubusercontent.com/5305599/49061716-da649680-f254-11e8-9a89-d95a7407ec6a.png" />
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/responsive.css">
 
@@ -34,33 +29,100 @@
     <h3>ACCUEIL</h3>
   </a>
 
-<section class="row m-auto">
+  <section class="row m-auto">
 
-  <div class="tab-content col-6 m-auto" id="v-pills-tabContent">
-    <div class="tab-pane fade " id="v-pills-day1" role="tabpanel" aria-labelledby="v-pills-day1-tab">
-      <p class="text-white">1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div class="tab-content col-md-6 col-9 m-auto" id="v-pills-tabContent">
+      <!-- NEWSLETTER -->
+      <div class="tab-pane fade " id="v-pills-day1" role="tabpanel" aria-labelledby="v-pills-news-tab">
+        <form action="contact.php" method="post" class="form nes-container text-white">
+          <h3 id="v-pills-news-tab" class="title text-center">NEWSLETTER</h3>
+          <br>
+          <div class="nes-field d-flex">
+            <label for="email_field_2">Votre email</label><br>
+            <input required type="email" id="email_field_2" class="nes-input">
+            <button disabled type="submit" class="nes-btn">Envoyer</button>
+          </div>
+          <br>
+          <div class="d-flex justify-content-around">
+            <a href=""><i class="nes-icon facebook is-medium"></i></a>
+            <a href=""><i class="nes-icon twitter is-medium"></i></a>
+            <a href=""><i class="nes-icon youtube is-medium"></i></a>
+          </div>
+
+        </form>
+      </div>
+      <!-- TICKETING -->
+      <div class="tab-pane fade text-white" id="v-pills-day2" role="tabpanel" aria-labelledby="v-pills-ticket-tab">
+        <div>
+          <h3 id="v-pills-ticket-tab" class="title text-center">BILLETERIE</h3>
+          <div class="row justify-content-around p-2">
+            <div class="d-flex flex-column">
+              <h2 class="title">Tarifs jours</h2>
+              <p class="courier">11-12-19: 15€</p>
+              <p class="courier">12-12-19: 15€</p>
+              <p class="courier">13-12-19: 15€</p>
+              <p class="courier">14 et 15-12-19: 30€</p>
+            </div>
+            <div class="d-flex flex-column">
+              <h2 class="title">Pass complet</h2>
+              <p class="courier">Journée 1 +</p>
+              <p class="courier">Journée 2 +</p>
+              <p class="courier">Journée 3 +</p>
+              <p class="courier">Weekend: 50€</p>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="nes-btn text-reset w-100 p-3">Accéder à la boutique</a>
+
+      </div>
+      <!-- LOCATION -->
+      <div class="tab-pane fade text-white text-center" id="v-pills-day3" role="tabpanel" aria-labelledby="v-pills-map-tab">
+
+        <h3 id="v-pills-map-tab" class="title">ADRESSE</h3>
+        <br>
+        <p class="text-white courier">Parc Chanot<br>114 Rond-Point du Prado, 13008 Marseille</p>
+        <br>
+        <h3 class="title text-white">Itinéraire</h3>
+        <br>
+        <a class="text-white courier text-reset" href="https://goo.gl/maps/SxqcjLE9wMt"> Depuis le terre</a>
+        <br>
+        <a class="text-white courier text-reset" href="https://earth.app.goo.gl/?apn=com.google.earth&ibi=com.google.b612&isi=293622097&ius=googleearth&link=https%3a%2f%2fearth.google.com%2fweb%2f%4046.42524795,7.34001788,-9299.73889317a,14665875.44074774d,35y,-16.07571742h,15.40167515t,0r%2fdata%3dClUaUxJLCiUweDEyYzliOGE1ODM1ZWJmYTk6MHg4MzQ1NDU2Y2RiZTMzZTUzGWfLXlvkokVAIeGtmLYklBVAKhBNYXJzZWlsbGUgQ2hhbm90GAIgASgC">Depuis
+          le néant</a>
+      </div>
+      <!-- CONTACT -->
+      <div class="tab-pane fade" id="v-pills-day45" role="tabpanel" aria-labelledby="v-pills-us-tab">
+        <form action="contact.php" method="post" class="form nes-container text-white">
+          <h3 id="v-pills-us-tab" class="title text-center">NOUS CONTACTER</h3>
+          <br>
+          <div class="nes-field">
+            <input required type="text" id="name_field" class="nes-input" placeholder="Votre nom">
+          </div>
+          <div class="nes-field">
+            <input required type="email" id="email_field" class="nes-input" placeholder="Votre email">
+          </div>
+          <div class="field">
+            <textarea required id="textarea_field" class="nes-textarea" placeholder="Votre message" rows="7" cols="12"></textarea>
+          </div>
+          <button disabled type="submit" class="nes-btn w-100 p-3">Envoyer le message</button>
+        </form>
+        <div class="courier text-reset row justify-content-around">
+          <a class="text-white" href="#">Conseil général et Région PACA</a>
+          <a class="text-white" href="#">France 3</a>
+          <a class="text-white" href="#">French Tech</a>
+        </div>
+        <br>
+        <div class="courier text-reset row justify-content-center">
+          <a class="text-white" href="#">Mentions légales</a>
+        </div>
+      </div>
     </div>
-    <div class="tab-pane fade" id="v-pills-day2" role="tabpanel" aria-labelledby="v-pills-day2-tab">
-      <p class="text-white">2 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div class="nav flex-column nav-pills col-1" id="v-pills-tab" role="tablist">
+      <a class="nav-link info nes-btn btn-block white" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-day1" role="tab" aria-controls="v-pills-day1" aria-selected="true">NEWSLETTER</a>
+      <a class="nav-link info nes-btn btn-block white" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-day2" role="tab" aria-controls="v-pills-day2" aria-selected="false">BILLETERIE</a>
+      <a class="nav-link info nes-btn btn-block white" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-day3" role="tab" aria-controls="v-pills-day3" aria-selected="false">LIEU</a>
+      <a class="nav-link info nes-btn btn-block white" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-day45" role="tab" aria-controls="v-pills-day45" aria-selected="false">CONTACT</a>
     </div>
-    <div class="tab-pane fade" id="v-pills-day3" role="tabpanel" aria-labelledby="v-pills-day3-tab">
-      <p class="text-white">3 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-    <div class="tab-pane fade" id="v-pills-day45" role="tabpanel" aria-labelledby="v-pills-day45-tab">
-      <p class="text-white">4 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-  </div>
-  <div class="nav flex-column nav-pills col-1" id="v-pills-tab" role="tablist">
-    <a class="nav-link info nes-btn btn-block white" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-day1" role="tab" aria-controls="v-pills-day1" aria-selected="true">NEWSLETTER</a>
-    <a class="nav-link info nes-btn btn-block white" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-day2" role="tab" aria-controls="v-pills-day2" aria-selected="false">BILLETERIE</a>
-    <a class="nav-link info nes-btn btn-block white" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-day3" role="tab" aria-controls="v-pills-day3" aria-selected="false">LIEU</a>
-    <a class="nav-link info nes-btn btn-block white" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-day45" role="tab" aria-controls="v-pills-day45" aria-selected="false">CONTACT</a>
-  </div>
-</section>
+  </section>
 
 
 
