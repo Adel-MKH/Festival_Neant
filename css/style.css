@@ -229,7 +229,7 @@ html, body, div, span, applet, object, iframe, h2, h4, h5, h6, p, blockquote, pr
 }
 
 .overflow-auto {
-  overflow: auto !important;
+  overflow-y: auto !important;
 }
 
 body {
@@ -251,6 +251,10 @@ body {
   width: 10px;
   display: inline-block;
   line-height: 18px;
+}
+
+.news {
+width: 80%;
 }
 
 /* Smartphones (portrait and landscape) ----------- */
