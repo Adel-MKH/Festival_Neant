@@ -1,26 +1,15 @@
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 
+    .padd {
+      padding-left: 25px;
+    }
 
+    .mar-l {
+      margin-left: 45px;
+    }
 
-
-
-
- }
-
-
-
-
-
-
-
-
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-
-
-
-
-
+    .w-85 {
+      width: 55% !important;
+    }
  }

@@ -116,11 +116,6 @@ html {
   left: 0;
   right: 0;
   color: #FFF;
-  text-align: center;
-  font-family: "impact", sans-serif;
-  font-weight: 300;
-  font-size: 50px;
-  letter-spacing: 10px;
   margin-top: -60px;
   padding-left: 10px;
   animation: title-art 10s infinite alternate;
@@ -217,6 +212,10 @@ section {
   transform: rotate(90deg);
 }
 
+.w-85 {
+  width: 85%;
+}
+
 .tab-content {
   justify-content: center;
   align-items: center;
@@ -281,7 +280,7 @@ blockquote:before,blockquote:after,q:before,q:after {
 }
 
 .btn.submit {
-  font-size: 12px;
+  font-size: 10px;
   height: 30px;
   line-height: 30px;
   padding: 0 10px;
@@ -293,7 +292,7 @@ blockquote:before,blockquote:after,q:before,q:after {
 
 .btn-small {
   height: 30px;
-  font-size: 12px;
+  font-size: 10px;
   line-height: 10px;
 }
 
